@@ -23,14 +23,14 @@
 }
 .time-select button,
 .sound-picker button {
-  color: white;
+  color: #3A2596;
   width: 30%;
   height: 10%;
   background: none;
   font-size: 20px;
   border-radius: 5px;
   cursor: pointer;
-  border: 2px solid white;
+  border: 2px solid #3A2596;
   transition: all 0.5s ease;
 }
 
@@ -46,6 +46,9 @@
 }
 .sound-picker button:nth-child(2) {
   background: #a14f49;
+}
+.sound-picker button:nth-child(3){
+  background: #adf;
 }
 .sound-picker button img {
   height: 100%;
@@ -91,3 +94,4 @@ video {
   width: 100%;
   z-index: -10;
 }
+
